@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>eg_coin-toss</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <main>
+            <h1>Play a Game</h1>
+            <div class="inputs">
+                <button onclick="flipCoin('heads')">Heads</button>
+                <button onclick="flipCoin('tails')">Tails</button>
+                <button onclick="flipCoin()">Flip Coin</button>
+            </div>
+            <p>You chose: <span id="choice">_</span></p>
+            <p>The coin came up: <span id="flip">_</span></p>
+            <P>You: <span id="result">_</span></P>
+        </main>
+        <script src="js/logic.js"></script>
+    </body>
+</html>
